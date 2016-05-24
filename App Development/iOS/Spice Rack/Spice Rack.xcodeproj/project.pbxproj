@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00E02B31CB4D6B50018BBF3 /* CombinedMain_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E02B21CB4D6B50018BBF3 /* CombinedMain_ViewController.swift */; };
+		F01204391CBEA06500F592DC /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F01204381CBEA06500F592DC /* GrandHotel-Regular.otf */; };
+		F02BB2941CD9AA70000A50AF /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02BB2931CD9AA70000A50AF /* OverlayView.swift */; };
+		F02BB2961CD9AA8B000A50AF /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02BB2951CD9AA8B000A50AF /* OverlayView.xib */; };
+		F09DCC481C85F8AE006F8DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC471C85F8AE006F8DAA /* AppDelegate.swift */; };
+		F09DCC4D1C85F8AE006F8DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09DCC4B1C85F8AE006F8DAA /* Main.storyboard */; };
+		F09DCC4F1C85F8AE006F8DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09DCC4E1C85F8AE006F8DAA /* Assets.xcassets */; };
+		F09DCC521C85F8AE006F8DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09DCC501C85F8AE006F8DAA /* LaunchScreen.storyboard */; };
+		F09DCC5D1C85F8AE006F8DAA /* Spice_RackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC5C1C85F8AE006F8DAA /* Spice_RackTests.swift */; };
+		F09DCC681C85F8AE006F8DAA /* Spice_RackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC671C85F8AE006F8DAA /* Spice_RackUITests.swift */; };
+		F09DCC851C85FA53006F8DAA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09DCC831C85FA53006F8DAA /* Realm.framework */; };
+		F09DCC861C85FA53006F8DAA /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F09DCC831C85FA53006F8DAA /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F09DCC871C85FA53006F8DAA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09DCC841C85FA53006F8DAA /* RealmSwift.framework */; };
+		F09DCC881C85FA53006F8DAA /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F09DCC841C85FA53006F8DAA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F09DCC8A1C85FA8E006F8DAA /* Spice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC891C85FA8E006F8DAA /* Spice.swift */; };
+		F09DCC8E1C85FFBB006F8DAA /* AddNewSpice_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC8D1C85FFBB006F8DAA /* AddNewSpice_ViewController.swift */; };
+		F09DCC931C863AA3006F8DAA /* SpiceJar_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC921C863AA3006F8DAA /* SpiceJar_CollectionViewCell.swift */; };
+		F09DCC951C865566006F8DAA /* SpiceDetails_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DCC941C865566006F8DAA /* SpiceDetails_ViewController.swift */; };
+		F0E110D61CBB4EC900A70DC5 /* SpiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E110D51CBB4EC900A70DC5 /* SpiceTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09DCC591C85F8AE006F8DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09DCC3C1C85F8AE006F8DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09DCC431C85F8AE006F8DAA;
+			remoteInfo = "Spice Rack";
+		};
+		F09DCC641C85F8AE006F8DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09DCC3C1C85F8AE006F8DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09DCC431C85F8AE006F8DAA;
+			remoteInfo = "Spice Rack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F09DCC801C85F9C8006F8DAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F09DCC881C85FA53006F8DAA /* RealmSwift.framework in Embed Frameworks */,
+				F09DCC861C85FA53006F8DAA /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F00E02B21CB4D6B50018BBF3 /* CombinedMain_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedMain_ViewController.swift; sourceTree = "<group>"; };
+		F01204381CBEA06500F592DC /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
+		F02BB2931CD9AA70000A50AF /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = ../OverlayView.swift; sourceTree = "<group>"; };
+		F02BB2951CD9AA8B000A50AF /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OverlayView.xib; path = ../OverlayView.xib; sourceTree = "<group>"; };
+		F09DCC441C85F8AE006F8DAA /* Spice Rack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spice Rack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DCC471C85F8AE006F8DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F09DCC4C1C85F8AE006F8DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09DCC4E1C85F8AE006F8DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09DCC511C85F8AE006F8DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09DCC531C85F8AE006F8DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09DCC581C85F8AE006F8DAA /* Spice RackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spice RackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DCC5C1C85F8AE006F8DAA /* Spice_RackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spice_RackTests.swift; sourceTree = "<group>"; };
+		F09DCC5E1C85F8AE006F8DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09DCC631C85F8AE006F8DAA /* Spice RackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spice RackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DCC671C85F8AE006F8DAA /* Spice_RackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spice_RackUITests.swift; sourceTree = "<group>"; };
+		F09DCC691C85F8AE006F8DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09DCC831C85FA53006F8DAA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		F09DCC841C85FA53006F8DAA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		F09DCC891C85FA8E006F8DAA /* Spice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spice.swift; path = ../Spice.swift; sourceTree = "<group>"; };
+		F09DCC8D1C85FFBB006F8DAA /* AddNewSpice_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewSpice_ViewController.swift; sourceTree = "<group>"; };
+		F09DCC921C863AA3006F8DAA /* SpiceJar_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpiceJar_CollectionViewCell.swift; path = ../SpiceJar_CollectionViewCell.swift; sourceTree = "<group>"; };
+		F09DCC941C865566006F8DAA /* SpiceDetails_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiceDetails_ViewController.swift; sourceTree = "<group>"; };
+		F0E110D51CBB4EC900A70DC5 /* SpiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiceTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09DCC411C85F8AE006F8DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DCC871C85FA53006F8DAA /* RealmSwift.framework in Frameworks */,
+				F09DCC851C85FA53006F8DAA /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DCC551C85F8AE006F8DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DCC601C85F8AE006F8DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09DCC3B1C85F8AE006F8DAA = {
+			isa = PBXGroup;
+			children = (
+				F09DCC831C85FA53006F8DAA /* Realm.framework */,
+				F09DCC841C85FA53006F8DAA /* RealmSwift.framework */,
+				F09DCC461C85F8AE006F8DAA /* Spice Rack */,
+				F09DCC5B1C85F8AE006F8DAA /* Spice RackTests */,
+				F09DCC661C85F8AE006F8DAA /* Spice RackUITests */,
+				F09DCC451C85F8AE006F8DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09DCC451C85F8AE006F8DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09DCC441C85F8AE006F8DAA /* Spice Rack.app */,
+				F09DCC581C85F8AE006F8DAA /* Spice RackTests.xctest */,
+				F09DCC631C85F8AE006F8DAA /* Spice RackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09DCC461C85F8AE006F8DAA /* Spice Rack */ = {
+			isa = PBXGroup;
+			children = (
+				F02BB2931CD9AA70000A50AF /* OverlayView.swift */,
+				F02BB2951CD9AA8B000A50AF /* OverlayView.xib */,
+				F09DCC921C863AA3006F8DAA /* SpiceJar_CollectionViewCell.swift */,
+				F09DCC891C85FA8E006F8DAA /* Spice.swift */,
+				F09DCC471C85F8AE006F8DAA /* AppDelegate.swift */,
+				F09DCC4B1C85F8AE006F8DAA /* Main.storyboard */,
+				F0E110D51CBB4EC900A70DC5 /* SpiceTableViewCell.swift */,
+				F00E02B21CB4D6B50018BBF3 /* CombinedMain_ViewController.swift */,
+				F09DCC941C865566006F8DAA /* SpiceDetails_ViewController.swift */,
+				F09DCC8D1C85FFBB006F8DAA /* AddNewSpice_ViewController.swift */,
+				F09DCC4E1C85F8AE006F8DAA /* Assets.xcassets */,
+				F09DCC501C85F8AE006F8DAA /* LaunchScreen.storyboard */,
+				F01204381CBEA06500F592DC /* GrandHotel-Regular.otf */,
+				F09DCC531C85F8AE006F8DAA /* Info.plist */,
+			);
+			path = "Spice Rack";
+			sourceTree = "<group>";
+		};
+		F09DCC5B1C85F8AE006F8DAA /* Spice RackTests */ = {
+			isa = PBXGroup;
+			children = (
+				F09DCC5C1C85F8AE006F8DAA /* Spice_RackTests.swift */,
+				F09DCC5E1C85F8AE006F8DAA /* Info.plist */,
+			);
+			path = "Spice RackTests";
+			sourceTree = "<group>";
+		};
+		F09DCC661C85F8AE006F8DAA /* Spice RackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F09DCC671C85F8AE006F8DAA /* Spice_RackUITests.swift */,
+				F09DCC691C85F8AE006F8DAA /* Info.plist */,
+			);
+			path = "Spice RackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09DCC431C85F8AE006F8DAA /* Spice Rack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09DCC6C1C85F8AE006F8DAA /* Build configuration list for PBXNativeTarget "Spice Rack" */;
+			buildPhases = (
+				F09DCC401C85F8AE006F8DAA /* Sources */,
+				F09DCC411C85F8AE006F8DAA /* Frameworks */,
+				F09DCC421C85F8AE006F8DAA /* Resources */,
+				F09DCC791C85F9A5006F8DAA /* ShellScript */,
+				F09DCC801C85F9C8006F8DAA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spice Rack";
+			productName = "Spice Rack";
+			productReference = F09DCC441C85F8AE006F8DAA /* Spice Rack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09DCC571C85F8AE006F8DAA /* Spice RackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09DCC6F1C85F8AE006F8DAA /* Build configuration list for PBXNativeTarget "Spice RackTests" */;
+			buildPhases = (
+				F09DCC541C85F8AE006F8DAA /* Sources */,
+				F09DCC551C85F8AE006F8DAA /* Frameworks */,
+				F09DCC561C85F8AE006F8DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09DCC5A1C85F8AE006F8DAA /* PBXTargetDependency */,
+			);
+			name = "Spice RackTests";
+			productName = "Spice RackTests";
+			productReference = F09DCC581C85F8AE006F8DAA /* Spice RackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09DCC621C85F8AE006F8DAA /* Spice RackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09DCC721C85F8AE006F8DAA /* Build configuration list for PBXNativeTarget "Spice RackUITests" */;
+			buildPhases = (
+				F09DCC5F1C85F8AE006F8DAA /* Sources */,
+				F09DCC601C85F8AE006F8DAA /* Frameworks */,
+				F09DCC611C85F8AE006F8DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09DCC651C85F8AE006F8DAA /* PBXTargetDependency */,
+			);
+			name = "Spice RackUITests";
+			productName = "Spice RackUITests";
+			productReference = F09DCC631C85F8AE006F8DAA /* Spice RackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09DCC3C1C85F8AE006F8DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matt Dickey";
+				TargetAttributes = {
+					F09DCC431C85F8AE006F8DAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 92UGHKD6H6;
+					};
+					F09DCC571C85F8AE006F8DAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F09DCC431C85F8AE006F8DAA;
+					};
+					F09DCC621C85F8AE006F8DAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F09DCC431C85F8AE006F8DAA;
+					};
+				};
+			};
+			buildConfigurationList = F09DCC3F1C85F8AE006F8DAA /* Build configuration list for PBXProject "Spice Rack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09DCC3B1C85F8AE006F8DAA;
+			productRefGroup = F09DCC451C85F8AE006F8DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09DCC431C85F8AE006F8DAA /* Spice Rack */,
+				F09DCC571C85F8AE006F8DAA /* Spice RackTests */,
+				F09DCC621C85F8AE006F8DAA /* Spice RackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09DCC421C85F8AE006F8DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01204391CBEA06500F592DC /* GrandHotel-Regular.otf in Resources */,
+				F09DCC521C85F8AE006F8DAA /* LaunchScreen.storyboard in Resources */,
+				F02BB2961CD9AA8B000A50AF /* OverlayView.xib in Resources */,
+				F09DCC4F1C85F8AE006F8DAA /* Assets.xcassets in Resources */,
+				F09DCC4D1C85F8AE006F8DAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DCC561C85F8AE006F8DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DCC611C85F8AE006F8DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F09DCC791C85F9A5006F8DAA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09DCC401C85F8AE006F8DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DCC8E1C85FFBB006F8DAA /* AddNewSpice_ViewController.swift in Sources */,
+				F02BB2941CD9AA70000A50AF /* OverlayView.swift in Sources */,
+				F09DCC931C863AA3006F8DAA /* SpiceJar_CollectionViewCell.swift in Sources */,
+				F0E110D61CBB4EC900A70DC5 /* SpiceTableViewCell.swift in Sources */,
+				F09DCC951C865566006F8DAA /* SpiceDetails_ViewController.swift in Sources */,
+				F09DCC481C85F8AE006F8DAA /* AppDelegate.swift in Sources */,
+				F09DCC8A1C85FA8E006F8DAA /* Spice.swift in Sources */,
+				F00E02B31CB4D6B50018BBF3 /* CombinedMain_ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DCC541C85F8AE006F8DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DCC5D1C85F8AE006F8DAA /* Spice_RackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DCC5F1C85F8AE006F8DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DCC681C85F8AE006F8DAA /* Spice_RackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09DCC5A1C85F8AE006F8DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09DCC431C85F8AE006F8DAA /* Spice Rack */;
+			targetProxy = F09DCC591C85F8AE006F8DAA /* PBXContainerItemProxy */;
+		};
+		F09DCC651C85F8AE006F8DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09DCC431C85F8AE006F8DAA /* Spice Rack */;
+			targetProxy = F09DCC641C85F8AE006F8DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09DCC4B1C85F8AE006F8DAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09DCC4C1C85F8AE006F8DAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09DCC501C85F8AE006F8DAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09DCC511C85F8AE006F8DAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09DCC6A1C85F8AE006F8DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09DCC6B1C85F8AE006F8DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09DCC6D1C85F8AE006F8DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Spice Rack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattdickeydesign.SpiceRack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F09DCC6E1C85F8AE006F8DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Spice Rack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattdickeydesign.SpiceRack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F09DCC701C85F8AE006F8DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spice RackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattdickeydesign.Spice-RackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spice Rack.app/Spice Rack";
+			};
+			name = Debug;
+		};
+		F09DCC711C85F8AE006F8DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spice RackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattdickeydesign.Spice-RackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spice Rack.app/Spice Rack";
+			};
+			name = Release;
+		};
+		F09DCC731C85F8AE006F8DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Spice RackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattdickeydesign.Spice-RackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spice Rack";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F09DCC741C85F8AE006F8DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Spice RackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattdickeydesign.Spice-RackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spice Rack";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09DCC3F1C85F8AE006F8DAA /* Build configuration list for PBXProject "Spice Rack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DCC6A1C85F8AE006F8DAA /* Debug */,
+				F09DCC6B1C85F8AE006F8DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09DCC6C1C85F8AE006F8DAA /* Build configuration list for PBXNativeTarget "Spice Rack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DCC6D1C85F8AE006F8DAA /* Debug */,
+				F09DCC6E1C85F8AE006F8DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09DCC6F1C85F8AE006F8DAA /* Build configuration list for PBXNativeTarget "Spice RackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DCC701C85F8AE006F8DAA /* Debug */,
+				F09DCC711C85F8AE006F8DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09DCC721C85F8AE006F8DAA /* Build configuration list for PBXNativeTarget "Spice RackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DCC731C85F8AE006F8DAA /* Debug */,
+				F09DCC741C85F8AE006F8DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09DCC3C1C85F8AE006F8DAA /* Project object */;
+}
